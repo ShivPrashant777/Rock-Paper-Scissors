@@ -8,6 +8,7 @@
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: 700;
+  background-image: radial-gradient(#1f3756, #141539);
 }
 
 #rules {
@@ -24,5 +25,45 @@ body {
   bottom: 300px;
   left: 320px;
   cursor: pointer;
+}
+
+#score-box {
+  margin: 0 auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid var(--header-outline);
+  border-radius: 7px;
+}
+
+#score-box .left {
+  width: 70%;
+  padding: 20px;
+  padding-top: 30px;
+  font-size: 2em;
+  color: white;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+#score-box .right {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+#score-box .right h2 {
+  color: var(--score-text);
+  margin: 10px 0;
+}
+
+#score-box .right #score-count {
+  margin: 0;
+  color: var(--dark-text);
 }
 /*# sourceMappingURL=main.css.map */
