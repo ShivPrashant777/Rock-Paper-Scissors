@@ -39,13 +39,17 @@ body {
 }
 
 #rules-button {
-  margin: 0 auto;
-  width: 100px;
+  margin: 20px auto 25px auto;
+  width: 140px;
   border: 1px solid white;
   color: white;
   font-size: 0.7em;
   text-align: center;
   border-radius: 7px;
+}
+
+#rules-button h1 {
+  margin: 8px;
 }
 
 #rules-button:hover {
@@ -95,11 +99,62 @@ body {
 
 .game {
   width: 400px;
+  height: 400px;
   margin: 90px auto;
+  margin-bottom: 0;
 }
 
 .game #tri {
   margin: 0;
   padding: 40px;
+}
+
+#paper, #scissors, #rock {
+  width: 110px;
+  height: 110px;
+  border-radius: 80px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 1px black;
+          box-shadow: 0 2px 1px black;
+}
+
+#paper img, #scissors img, #rock img {
+  margin: 0;
+  padding: 30px;
+}
+
+#paper {
+  border: 20px solid #4865f4;
+  position: relative;
+  bottom: 380px;
+}
+
+#paper:hover {
+  background-color: #35d0ff;
+  cursor: pointer;
+}
+
+#scissors {
+  border: 20px solid #ec9e0e;
+  position: relative;
+  bottom: 530px;
+  left: 250px;
+}
+
+#scissors:hover {
+  background-color: #ffeb35;
+  cursor: pointer;
+}
+
+#rock {
+  border: 20px solid #dc2e4e;
+  position: relative;
+  bottom: 460px;
+  left: 125px;
+}
+
+#rock:hover {
+  background-color: #e67979;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

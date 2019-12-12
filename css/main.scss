@@ -40,13 +40,17 @@ body {
 }
 
 #rules-button {
-    margin: 0 auto;
-    width: 100px;
+    margin: 20px auto 25px auto;
+    width: 140px;
     border: 1px solid white;
     color: white;
     font-size: 0.7em;
     text-align: center;
     border-radius: 7px;
+
+    h1 {
+        margin: 8px;
+    }
 }
 
 #rules-button:hover {
@@ -93,12 +97,61 @@ body {
 }
 
 .game {
-    
     width: 400px;
+    height: 400px;
     margin: 90px auto;
+    margin-bottom: 0;
 
     #tri {
         margin: 0;
         padding: 40px;
     }
+}
+
+#paper, #scissors, #rock {
+    width: 110px;
+    height: 110px;
+    border-radius: 80px;
+    background-color: #fff;
+    box-shadow: 0 2px 1px black;
+
+    img {
+        margin: 0;
+        padding: 30px;
+    }
+}
+
+#paper {
+    border: 20px solid hsl(230, 89%, 62%);
+    position: relative;
+    bottom: 380px;
+}
+
+#paper:hover {
+    background-color: rgb(53, 208, 255);
+    cursor: pointer;
+}
+
+#scissors {
+    border: 20px solid hsl(39, 89%, 49%);
+    position: relative;
+    bottom: 530px;
+    left: 250px;
+}
+
+#scissors:hover {
+    background-color: rgb(255, 235, 53);
+    cursor: pointer;
+}
+
+#rock {
+    border: 20px solid hsl(349, 71%, 52%);
+    position: relative;
+    bottom: 460px;
+    left: 125px;
+}
+
+#rock:hover {
+    background-color: rgb(230, 121, 121);
+    cursor: pointer;
 }
