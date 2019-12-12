@@ -10,9 +10,20 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 700;
     background-image: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
 }
 
 #rules {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 34, 34, 0.308);
+}
+
+#rules-box {
     padding: 5px 30px 30px 30px;
     margin: 170px auto;
     width: 340px;
@@ -28,8 +39,23 @@ body {
     }
 }
 
-#score-box {
+#rules-button {
     margin: 0 auto;
+    width: 100px;
+    border: 1px solid white;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    border-radius: 7px;
+}
+
+#rules-button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+#score-box {
+    margin: 20px auto;
     width: 90%;
     display: flex;
     border: 2px solid var(--header-outline);
@@ -63,5 +89,16 @@ body {
             margin: 0;
             color: var(--dark-text);
         }
+    }
+}
+
+.game {
+    
+    width: 400px;
+    margin: 90px auto;
+
+    #tri {
+        margin: 0;
+        padding: 40px;
     }
 }
