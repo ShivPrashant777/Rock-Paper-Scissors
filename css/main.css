@@ -3,14 +3,14 @@
   --dark-text: hsl(229, 25%, 31%);
   --score-text: hsl(229, 64%, 46%);
   --header-outline: hsl(217, 16%, 45%);
+  --badground1: hsl(214, 47%, 23%);
+  --background2: hsl(237, 49%, 15%);
 }
 
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: 700;
-  background-image: radial-gradient(#1f3756, #141539);
-  background-repeat: no-repeat;
-  height: 100%;
+  background-image: radial-gradient(hsl(214, 47%, 23%),hsl(237, 49%, 15%));
   margin: 0;
 }
 
@@ -158,3 +158,14 @@ body {
   cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
+
+
+@media (max-width: 768px){
+    body{
+      background: radial-gradient(#1f3756, #141539);
+      margin: 2%;
+      width: 96%;
+      padding: 1%;
+    }
+
+}
