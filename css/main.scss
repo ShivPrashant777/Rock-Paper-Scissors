@@ -119,6 +119,7 @@ body {
         margin: 0;
         padding: 30px;
     }
+    
 }
 
 #paper {
@@ -154,6 +155,44 @@ body {
 #rock:hover {
     background-color: rgb(230, 121, 121);
     cursor: pointer;
+}
+
+.game {
+
+    .c-paper, .c-rock, .c-scissors {
+        display: none;
+        width: 110px;
+        height: 110px;
+        border-radius: 80px;
+        background-color: #fff;
+        box-shadow: 0 2px 1px black;
+
+        img {
+            margin: 0;
+            padding: 30px;
+        }
+    }
+
+    .c-paper {
+        border: 20px solid hsl(230, 89%, 62%);
+        position: relative;
+        bottom: 820px;
+        left: 250px;
+    }
+
+    .c-scissors {
+        border: 20px solid hsl(39, 89%, 49%);
+        position: relative;
+        bottom: 970px;
+        left: 250px;
+    }
+
+    .c-rock {
+        border: 20px solid hsl(349, 71%, 52%);
+        position: relative;
+        bottom: 1120px;
+        left: 250px;
+    }
 }
 
 #result {
