@@ -2,6 +2,7 @@
 var rock = document.querySelector("#rock");
 var paper = document.querySelector("#paper");
 var scissor = document.querySelector("#scissors");
+var tri = document.querySelector("#tri");
 var game = [rock , paper , scissor];
 var score = 0;
 var scoreDisplay = document.querySelector("#score-count");
@@ -21,10 +22,17 @@ game.forEach(function(uP,uPick){
 function gameController(uPick,cPick){
   
     if(uPick === 0){
+
+        paper.style.display = "none";
+        scissor.style.display = "none";
+        tri.style.display = "none";
+
+        rock.style.bottom = 0;
+        rock.style.left = 0;
+
         if(cPick === 1){
             console.log("You Lost");
             score--;
-            
         }
         else if(cPick === 2){
             console.log("You Win");
@@ -36,6 +44,14 @@ function gameController(uPick,cPick){
         }
     }
     if(uPick === 1){
+
+        rock.style.display = "none";
+        scissor.style.display = "none";
+        tri.style.display = "none";
+
+        paper.style.bottom = 0;
+        paper.style.left = 0;
+
         if(cPick === 2){
             console.log("You Lost");
             score--;
@@ -51,6 +67,14 @@ function gameController(uPick,cPick){
         }
     }
     if(uPick === 2){
+
+        rock.style.display = "none";
+        paper.style.display = "none";
+        tri.style.display = "none";
+
+        scissor.style.bottom = 0;
+        scissor.style.left = 0;
+
         if(cPick === 0){
             console.log("You Lost");
             score--;
