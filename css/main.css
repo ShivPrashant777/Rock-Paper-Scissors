@@ -10,7 +10,7 @@
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: 700;
-  background-image: radial-gradient(hsl(214, 47%, 23%),hsl(237, 49%, 15%));
+  background-image: radial-gradient(#1f3756, #141539);
   margin: 0;
 }
 
@@ -158,14 +158,3 @@ body {
   cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
-
-
-@media (max-width: 768px){
-    body{
-      background: radial-gradient(#1f3756, #141539);
-      margin: 2%;
-      width: 96%;
-      padding: 1%;
-    }
-
-}
