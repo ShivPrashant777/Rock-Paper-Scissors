@@ -95,7 +95,7 @@ function tDisplay(uPick,cPick,score){
         h1.textContent = "YOU LOST";
     }
     else if(prev_score ===  score){
-        h1.textContent == "TIE";
+        h1.textContent = "TIE";
     }
     prev_score = score;
 }
