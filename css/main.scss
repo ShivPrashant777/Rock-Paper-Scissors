@@ -6,12 +6,10 @@
     --header-outline: hsl(217, 16%, 45%);
 }
 
-*{
-    margin: 0;
-    padding: 0; 
-}
+
 
 body {
+    width: 100%;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 700;
     background-image: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
@@ -38,6 +36,7 @@ body {
 
     #close {
         position: relative;
+        
         bottom: 300px;
         left: 320px;
         cursor: pointer;
