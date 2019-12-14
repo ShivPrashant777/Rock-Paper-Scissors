@@ -166,20 +166,31 @@ body {
   
   .left1 {
     width: 15%;
-    margin: 5%;
-    padding-left: 10%;
+    margin: 5% 15% 5% 0;
+    padding: 20px 0;
   }
   
   .right1 {
     width: 20%;
-    margin: 5%;
+    margin: 5% 0 5% 5%;
+    padding: 20px 0;
   }
   
   .center {
     width: 20%;
-    margin: 5%;
+    margin: 0;
+    margin-top: 200px ;
     text-align: center;
     color: white;
+
+    h1 {
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    button {
+        margin: 20px 20px 20px 0;
+    }
   }
   
   .left-img {
@@ -204,6 +215,10 @@ body {
     cursor: pointer;
   }
   
+  .center button:focus {
+      outline: none;
+  }
+
   .right-img {
     height: 110px;
     width: 110px;
@@ -224,11 +239,32 @@ body {
      text-align: center;
   }
   
-  @media (max-width: 768px) {
-    body {
-      background: radial-gradient(#1f3756, #141539);
-      margin: 2%;
-      width: 96%;
-      padding: 1%;
+@media (max-width: 768px) {
+body {
+    background: radial-gradient(#1f3756, #141539);
+    margin: 2%;
+    width: 96%;
+    padding: 1%;
+}
+}
+
+@media only (min-width: 768px) {
+    .left1 {
+        width: 15%;
+        margin: 5%;
+        padding-left: 10%;
     }
-  }
+
+    .right1 {
+        width: 20%;
+        margin: 5%;
+    }
+
+    .center {
+        width: 20%;
+        margin: 5%;
+        text-align: center;
+        color: white;
+      }
+}
+

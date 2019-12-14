@@ -173,20 +173,31 @@ body {
 
 .left1 {
   width: 15%;
-  margin: 5%;
-  padding-left: 10%;
+  margin: 5% 15% 5% 0;
+  padding: 20px 0;
 }
 
 .right1 {
   width: 20%;
-  margin: 5%;
+  margin: 5% 0 5% 5%;
+  padding: 20px 0;
 }
 
 .center {
   width: 20%;
-  margin: 5%;
+  margin: 0;
+  margin-top: 200px;
   text-align: center;
   color: white;
+}
+
+.center h1 {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.center button {
+  margin: 20px 20px 20px 0;
 }
 
 .left-img {
@@ -209,6 +220,10 @@ body {
   font-weight: 600;
   word-spacing: 5px;
   cursor: pointer;
+}
+
+.center button:focus {
+  outline: none;
 }
 
 .right-img {
@@ -237,6 +252,24 @@ body {
     margin: 2%;
     width: 96%;
     padding: 1%;
+  }
+}
+
+@media (min-width: 768px) {
+  .left1 {
+    width: 15%;
+    margin: 5%;
+    padding-left: 10%;
+  }
+  .right1 {
+    width: 20%;
+    margin: 5%;
+  }
+  .center {
+    width: 20%;
+    margin: 5%;
+    text-align: center;
+    color: white;
   }
 }
 /*# sourceMappingURL=main.css.map */
