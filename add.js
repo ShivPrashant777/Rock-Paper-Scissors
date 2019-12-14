@@ -22,7 +22,7 @@ var playAgain = document.querySelector(".center button");
 game.forEach(function (uP, uPick) {
     game[uPick].addEventListener("click", function () {
         cPick = Number(Math.floor(Math.random() * 3));
-        console.log(uPick, cPick);
+        
         gameController(uPick, cPick);
         main.style.display = 'none';
         gameState.style.display = 'flex';
@@ -30,7 +30,7 @@ game.forEach(function (uP, uPick) {
 });
 
 playAgain.addEventListener("click", function () {
-    console.log("button-Pressed");
+    
     main.style.display = 'block';
     gameState.style.display = 'none';
 });
@@ -39,47 +39,31 @@ function gameController(uPick, cPick) {
 
     if (uPick === 0) {
         if (cPick === 1) {
-            console.log("You Lost");
             score--;
-
         }
         else if (cPick === 2) {
-            console.log("You Win");
-            score++;
-
+                score++;
         } else if (cPick === 0) {
-            console.log("Tie");
-
-        }
+            score+=0; 
+       }
     }
     if (uPick === 1) {
         if (cPick === 2) {
-            console.log("You Lost");
-            score--;
-
-        }
-        else if (cPick === 0) {
-            console.log("You Win");
+           score--;
+        } else if (cPick === 0) {
             score++;
-
         } else if (cPick === 1) {
-            console.log("Tie");
-
+            score+=0;
         }
     }
     if (uPick === 2) {
         if (cPick === 0) {
-            console.log("You Lost");
-            score--;
-
+            score--; 
         }
         else if (cPick === 1) {
-            console.log("You Win");
-            score++;
-
+           score++;
         } else if (cPick === 2) {
-            console.log("Tie");
-
+            score+=0;
         }
     }
     tDisplay(uPick, cPick, score);
