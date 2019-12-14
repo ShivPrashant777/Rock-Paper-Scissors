@@ -6,8 +6,6 @@
     --header-outline: hsl(217, 16%, 45%);
 }
 
-
-
 body {
     width: 100%;
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -162,10 +160,11 @@ body {
 
 .game-state {
     margin: 5%;
+    margin-bottom: 0;
     width: 90%;
     display: flex;
     flex-direction: row;
-    height: auto;
+    height: 400px;
   }
   
   .left1 {
@@ -253,7 +252,7 @@ body {
     }
 }
 
-@media only (min-width: 768px) {
+@media (min-width: 768px) {
     .left1 {
         width: 15%;
         margin: 5%;

@@ -5,18 +5,13 @@
   --header-outline: hsl(217, 16%, 45%);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   width: 100%;
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: 700;
   background-image: radial-gradient(#1f3756, #141539);
   background-repeat: no-repeat;
-  height: inherit;
+  height: 100%;
   margin: 0;
 }
 
@@ -166,6 +161,7 @@ body {
 
 .game-state {
   margin: 5%;
+  margin-bottom: 0;
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -174,7 +170,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: auto;
+  height: 400px;
 }
 
 .left1 {
