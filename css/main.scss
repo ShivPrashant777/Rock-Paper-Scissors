@@ -178,6 +178,8 @@ body {
   .center {
     width: 20%;
     margin: 5%;
+    text-align: center;
+    color: white;
   }
   
   .left-img {
@@ -187,11 +189,6 @@ body {
     background-color: #fff;
     -webkit-box-shadow: 0 2px 1px black;
     box-shadow: 0 2px 1px black;
-  }
-  
-  .center {
-    text-align: center;
-    color: white;
   }
   
   .center button {
@@ -204,6 +201,7 @@ body {
     color: #dc2e4e;
     font-weight: 600;
     word-spacing: 5px;
+    cursor: pointer;
   }
   
   .right-img {

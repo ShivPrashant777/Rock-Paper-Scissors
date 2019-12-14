@@ -32,6 +32,7 @@ game.forEach(function(uP,uPick){
 playAgain.addEventListener("click" , function(){
     console.log("button-Pressed");
     main.style.display = 'block';
+    gameState.style.display = "none";
 });
 
 function gameController(uPick,cPick){
