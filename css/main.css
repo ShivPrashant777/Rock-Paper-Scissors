@@ -25,7 +25,7 @@ body {
 
 #rules-box {
   padding: 5px 30px 30px 30px;
-  margin: 170px auto;
+  margin: 200px auto;
   width: 340px;
   background-color: #e4e4e4;
   color: var(--dark-text);
@@ -181,6 +181,7 @@ body {
 
 .right1 {
   width: 10%;
+  height: 100px;
   margin: 5% 0 5% 5%;
   padding: 20px 20px;
 }
@@ -247,15 +248,6 @@ body {
   width: 100%;
   color: white;
   text-align: center;
-}
-
-@media (max-width: 768px) {
-  body {
-    background: radial-gradient(#1f3756, #141539);
-    margin: 2%;
-    width: 96%;
-    padding: 1%;
-  }
 }
 
 @media (min-width: 768px) {

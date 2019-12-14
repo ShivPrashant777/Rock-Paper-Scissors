@@ -26,7 +26,7 @@ body {
 
 #rules-box {
     padding: 5px 30px 30px 30px;
-    margin: 170px auto;
+    margin: 200px auto;
     width: 340px;
     background-color: rgb(228, 228, 228);
     color: var(--dark-text);
@@ -34,7 +34,6 @@ body {
 
     #close {
         position: relative;
-        
         bottom: 300px;
         left: 320px;
         cursor: pointer;
@@ -175,6 +174,7 @@ body {
   
   .right1 {
     width: 10%;
+    height: 100px;
     margin: 5% 0 5% 5%;
     padding: 20px 20px;
   }
@@ -244,13 +244,13 @@ body {
   }
   
 @media (max-width: 768px) {
-    body {
-        background: radial-gradient(#1f3756, #141539);
-        margin: 2%;
-        width: 96%;
-        padding: 1%;
-    }
-}
+  body {
+    background: radial-gradient(#1f3756, #141539);
+    margin: 2%;
+    width: 96%;
+    padding: 1%;
+  }
+}  
 
 @media (min-width: 768px) {
     .left1 {
