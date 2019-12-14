@@ -5,6 +5,11 @@
   --header-outline: hsl(217, 16%, 45%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: 700;
@@ -241,6 +246,7 @@ body {
 }
 
 .attribution {
+  margin-bottom: 2%;
   width: 100%;
   color: white;
   text-align: center;
