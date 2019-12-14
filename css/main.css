@@ -10,7 +10,7 @@
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: 700;
-  background-image: radial-gradient(#1f3756, #141539);
+  background-image: radial-gradient(hsl(214, 47%, 23%),hsl(237, 49%, 15%));
   margin: 0;
 }
 
@@ -157,48 +157,15 @@ body {
   background-color: #e67979;
   cursor: pointer;
 }
-
-.game .c-paper, .game .c-rock, .game .c-scissors {
-  display: none;
-  width: 110px;
-  height: 110px;
-  border-radius: 80px;
-  background-color: #fff;
-  -webkit-box-shadow: 0 2px 1px black;
-          box-shadow: 0 2px 1px black;
-}
-
-.game .c-paper img, .game .c-rock img, .game .c-scissors img {
-  margin: 0;
-  padding: 30px;
-}
-
-.game .c-paper {
-  border: 20px solid #4865f4;
-  position: relative;
-  bottom: 820px;
-  left: 250px;
-}
-
-.game .c-scissors {
-  border: 20px solid #ec9e0e;
-  position: relative;
-  bottom: 970px;
-  left: 250px;
-}
-
-.game .c-rock {
-  border: 20px solid #dc2e4e;
-  position: relative;
-  bottom: 1120px;
-  left: 250px;
-}
-
-#result {
-  margin: 20px auto 25px auto;
-  width: 180px;
-  color: white;
-  font-size: 3em;
-  text-align: center;
-}
 /*# sourceMappingURL=main.css.map */
+
+
+@media (max-width: 768px){
+    body{
+      background: radial-gradient(#1f3756, #141539);
+      margin: 2%;
+      width: 96%;
+      padding: 1%;
+    }
+
+}
