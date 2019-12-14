@@ -104,14 +104,17 @@ function imageSetter(uPick,cPick){
             case 0:
                 img1.src = "images/icon-rock.svg";
                 left_img.appendChild(img1);
+                left_img.style.border = "20px solid hsl(349, 71%, 52%)";
                 break;
             case 1:
                 img1.src = "images/icon-paper.svg";
                 left_img.appendChild(img1);
+                left_img.style.border = "20px solid hsl(230, 89%, 62%)";
                 break;
             case 2:
                 img1.src = "images/icon-scissors.svg";
                 left_img.appendChild(img1);
+                left_img.style.border = "20px solid hsl(39, 89%, 49%)";
                 break;
             
 
@@ -120,14 +123,17 @@ function imageSetter(uPick,cPick){
             case 0:
                 img2.src = "images/icon-rock.svg";
                 right_img.appendChild(img2);
+                right_img.style.border = "20px solid hsl(349, 71%, 52%)";
                 break;
             case 1:
                 img2.src = "images/icon-paper.svg";
                 right_img.appendChild(img2);
+                right_img.style.border = "20px solid hsl(230, 89%, 62%)";
                 break;
             case 2:
                 img2.src = "images/icon-scissors.svg";
                 right_img.appendChild(img2);
+                right_img.style.border = "20px solid hsl(39, 89%, 49%)";
                 break;
         }
 }
