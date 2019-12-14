@@ -155,3 +155,82 @@ body {
     background-color: rgb(230, 121, 121);
     cursor: pointer;
 }
+
+.game-state {
+    margin: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+  
+  .left1 {
+    width: 15%;
+    margin: 5%;
+    padding-left: 10%;
+  }
+  
+  .right1 {
+    width: 20%;
+    margin: 5%;
+  }
+  
+  .center {
+    width: 20%;
+    margin: 5%;
+  }
+  
+  .left-img {
+    height: 110px;
+    width: 110px;
+    border-radius: 80px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 1px black;
+    box-shadow: 0 2px 1px black;
+  }
+  
+  .center {
+    text-align: center;
+    color: white;
+  }
+  
+  .center button {
+    width: 180px;
+    padding: 18px;
+    text-align: center;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    color: #dc2e4e;
+    font-weight: 600;
+    word-spacing: 5px;
+  }
+  
+  .right-img {
+    height: 110px;
+    width: 110px;
+    border-radius: 80px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 1px black;
+    box-shadow: 0 2px 1px black;
+  }
+  
+  .left-img img, .right-img img {
+    margin: 0;
+    padding: 30px;
+  }
+  
+  .attribution{
+     width: 100%;
+     color: white;
+     text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      background: radial-gradient(#1f3756, #141539);
+      margin: 2%;
+      width: 96%;
+      padding: 1%;
+    }
+  }
