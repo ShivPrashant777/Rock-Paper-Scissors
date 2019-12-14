@@ -16,7 +16,7 @@ body {
     font-weight: 700;
     background-image: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
     background-repeat: no-repeat;
-    height: 100%;
+    height: inherit;
     margin: 0;
 }
 
@@ -239,6 +239,7 @@ body {
   }
   
   .attribution{
+     margin-bottom: 2%:
      width: 100%;
      color: white;
      text-align: center;
