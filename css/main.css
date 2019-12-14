@@ -5,11 +5,6 @@
   --header-outline: hsl(217, 16%, 45%);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   width: 100%;
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -39,7 +34,6 @@ body {
 
 #rules-box #close {
   position: relative;
-  top: 0px;
   bottom: 300px;
   left: 320px;
   cursor: pointer;
