@@ -250,6 +250,15 @@ body {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  body {
+    background: radial-gradient(#1f3756, #141539);
+    margin: 2%;
+    width: 96%;
+    padding: 1%;
+  }
+}
+
 @media (min-width: 768px) {
   .left1 {
     width: 15%;
